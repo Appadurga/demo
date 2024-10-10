@@ -9,7 +9,8 @@ describe("check alter",()=>
            await browser.pause(2000)
            await browser.$("//button[@onclick='jsPrompt()']").click()
            await browser.pause(2000)
-           
+           await browser.$("//button[@onclick='jsPrompt()']").click()
+           await browser.pause(2000)
              
         })
         
